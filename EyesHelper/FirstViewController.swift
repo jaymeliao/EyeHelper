@@ -8,7 +8,7 @@
 import UIKit
 import Vision
 import VisionKit
-class ViewController: UIViewController, VNDocumentCameraViewControllerDelegate{
+class FirstViewController: UIViewController, VNDocumentCameraViewControllerDelegate{
 
     let textRecognizationQueue = DispatchQueue.init(label: "TextRecognizationQueue", qos: .userInitiated, attributes: [], autoreleaseFrequency: .workItem, target: nil)
     var request = [VNRequest]()
@@ -65,10 +65,20 @@ class ViewController: UIViewController, VNDocumentCameraViewControllerDelegate{
                 }
         }
     }
-        
+
         
     @IBAction func nextButtonIsPressed(_ sender: UIButton) {
-        print("go to next page")
+        performSegue(withIdentifier: "goToSecond", sender: self)
+        
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "goToSecond" {
+                let destinationVC = segue.destination as! SecondViewController
+                destinationVC.result=textView.text;
+            }
+      
     }
     
     

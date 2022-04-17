@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3505473E2807B3E0002C3679 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3505473D2807B3E0002C3679 /* SecondViewController.swift */; };
+		350547402807BC6A002C3679 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3505473F2807BC6A002C3679 /* Speech.swift */; };
 		357615CD28024ABD00D96B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357615CC28024ABD00D96B62 /* AppDelegate.swift */; };
 		357615CF28024ABD00D96B62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357615CE28024ABD00D96B62 /* SceneDelegate.swift */; };
-		357615D128024ABD00D96B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357615D028024ABD00D96B62 /* ViewController.swift */; };
+		357615D128024ABD00D96B62 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357615D028024ABD00D96B62 /* FirstViewController.swift */; };
 		357615D428024ABD00D96B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357615D228024ABD00D96B62 /* Main.storyboard */; };
 		357615D628024ABF00D96B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357615D528024ABF00D96B62 /* Assets.xcassets */; };
 		357615D928024ABF00D96B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357615D728024ABF00D96B62 /* LaunchScreen.storyboard */; };
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3505473D2807B3E0002C3679 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3505473F2807BC6A002C3679 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
 		357615C928024ABD00D96B62 /* EyesHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyesHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357615CC28024ABD00D96B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		357615CE28024ABD00D96B62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		357615D028024ABD00D96B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		357615D028024ABD00D96B62 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		357615D328024ABD00D96B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		357615D528024ABF00D96B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357615D828024ABF00D96B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,11 +105,13 @@
 			children = (
 				357615CC28024ABD00D96B62 /* AppDelegate.swift */,
 				357615CE28024ABD00D96B62 /* SceneDelegate.swift */,
-				357615D028024ABD00D96B62 /* ViewController.swift */,
+				357615D028024ABD00D96B62 /* FirstViewController.swift */,
 				357615D228024ABD00D96B62 /* Main.storyboard */,
 				357615D528024ABF00D96B62 /* Assets.xcassets */,
 				357615D728024ABF00D96B62 /* LaunchScreen.storyboard */,
 				357615DA28024ABF00D96B62 /* Info.plist */,
+				3505473D2807B3E0002C3679 /* SecondViewController.swift */,
+				3505473F2807BC6A002C3679 /* Speech.swift */,
 			);
 			path = EyesHelper;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357615D128024ABD00D96B62 /* ViewController.swift in Sources */,
+				3505473E2807B3E0002C3679 /* SecondViewController.swift in Sources */,
+				357615D128024ABD00D96B62 /* FirstViewController.swift in Sources */,
 				357615CD28024ABD00D96B62 /* AppDelegate.swift in Sources */,
 				357615CF28024ABD00D96B62 /* SceneDelegate.swift in Sources */,
+				350547402807BC6A002C3679 /* Speech.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
